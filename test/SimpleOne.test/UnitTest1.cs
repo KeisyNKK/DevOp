@@ -11,17 +11,13 @@ namespace SimpleOne.test
         [Fact]//Basically a test 
 
         public void GetReturnsMyName(){
-            Console.WriteLine($"\n\n\nQUalquer vcalor apsdjfejc\n\n");
-            int i = 2;
+            Console.WriteLine($"\n\n\nQUalquer vcaddddlor apsdjfejc\n\n");
+            int i = 1;
             var returnValue = controller.Get(i);
             Assert.Equal("Casa "+i, returnValue.Value);
 
         }
 
-        [Fact]
-        public void Test1()
-        {
-
-        }
+        
     }
 }
